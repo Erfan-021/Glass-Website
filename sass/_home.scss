@@ -1,0 +1,15 @@
+.glass-container {
+  background: $color-white;
+  min-height: 80vh;
+  width: 60%;
+  border-radius: 1.6rem;
+  z-index: 10;
+  overflow: hidden;
+
+  background: linear-gradient(to right bottom, rgba($color-white, 0.3), rgba($color-white, 0.2));
+  border: 1px solid rgba($color-white, 0.3);
+  backdrop-filter: blur(2rem);
+
+  display: grid;
+  grid-template-columns: 25rem 1fr;
+}

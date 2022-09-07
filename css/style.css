@@ -13,3 +13,102 @@ html {
 
 body {
   font-family: sans-serif; }
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #65dfc9 60%, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.circle-1,
+.circle-2 {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  box-shadow: 0 0 9rem 3rem rgba(255, 255, 255, 0.3);
+  position: absolute;
+  filter: blur(0.5px); }
+
+.circle-1 {
+  top: 5%;
+  right: 15%; }
+
+.circle-2 {
+  bottom: 5%;
+  left: 10%; }
+
+.dashboard {
+  grid-column: 1/2;
+  display: grid;
+  grid-template-rows: 15rem 1fr 15rem;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)); }
+  .dashboard__user {
+    color: #4487c9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); }
+    .dashboard__user p {
+      font-size: 1rem; }
+  .dashboard__avatar {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%; }
+  .dashboard__links {
+    color: #53a9ff;
+    list-style: none;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .dashboard__link {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    gap: 3rem; }
+    .dashboard__link img {
+      justify-self: start;
+      width: 3rem;
+      height: 3rem; }
+  .dashboard__pro {
+    background-color: #65dfc9;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fff; }
+    .dashboard__pro h2 {
+      line-height: 1.6; }
+    .dashboard__pro img {
+      width: 10rem;
+      height: 10rem;
+      margin-top: -2rem; }
+
+.games {
+  padding: 5rem; }
+
+.glass-container {
+  background: #fff;
+  min-height: 80vh;
+  width: 60%;
+  border-radius: 1.6rem;
+  z-index: 10;
+  overflow: hidden;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(2rem);
+  display: grid;
+  grid-template-columns: 25rem 1fr; }
+
+.heading-2 {
+  font-size: 1.8rem;
+  font-weight: 400; }
+
+.heading-3 {
+  font-size: 1.6rem; }

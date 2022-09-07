@@ -1,0 +1,31 @@
+main {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, $color-primary 60%, $color-secondary);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-1,
+.circle-2 {
+  background: linear-gradient(to right bottom, rgba($color-white, 0.9), rgba($color-white, 0.1));
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+
+  box-shadow: 0 0 9rem 3rem rgba($color-white, 0.3);
+
+  position: absolute;
+  filter: blur(0.5px);
+}
+
+.circle-1 {
+  top: 5%;
+  right: 15%;
+}
+
+.circle-2 {
+  bottom: 5%;
+  left: 10%;
+}

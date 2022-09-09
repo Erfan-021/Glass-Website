@@ -1,7 +1,8 @@
 .glass-container {
   background: $color-white;
   min-height: 80vh;
-  width: 60%;
+  max-width: 100rem;
+  margin: 4rem auto;
   border-radius: 1.6rem;
   z-index: 10;
   overflow: hidden;

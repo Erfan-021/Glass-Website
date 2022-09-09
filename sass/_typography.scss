@@ -1,8 +1,18 @@
+.heading-1 {
+  color: $color-tertiary-light;
+  font-size: 3rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
 .heading-2 {
+  color: $color-tertiary-light-2;
   font-size: 1.8rem;
   font-weight: 400;
 }
 
 .heading-3 {
+  color: $color-tertiary-light;
+  opacity: 0.8;
   font-size: 1.6rem;
 }

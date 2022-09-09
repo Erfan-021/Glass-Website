@@ -1,10 +1,6 @@
-main {
-  min-height: 100vh;
+body {
+  max-height: 100vh;
   background: linear-gradient(to bottom, $color-primary 60%, $color-secondary);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .circle-1,
@@ -18,11 +14,12 @@ main {
 
   position: absolute;
   filter: blur(0.5px);
+  z-index: -5;
 }
 
 .circle-1 {
-  top: 5%;
-  right: 15%;
+  top: 3%;
+  right: 10%;
 }
 
 .circle-2 {
